@@ -145,7 +145,7 @@ def professionalcertificates():
                                     {
                                         "type": "web_url",
                                         "url": "http://tidd.ly/6271731b",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -158,7 +158,7 @@ def professionalcertificates():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/4a0c132",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -171,7 +171,7 @@ def professionalcertificates():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/10cb3556",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -184,7 +184,7 @@ def professionalcertificates():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/1374640e",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -197,7 +197,7 @@ def professionalcertificates():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/efe59bb4",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -210,7 +210,7 @@ def professionalcertificates():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/6e429f7d",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -223,7 +223,7 @@ def professionalcertificates():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/f282ae31",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -236,7 +236,7 @@ def professionalcertificates():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/a6f98912",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -249,7 +249,7 @@ def professionalcertificates():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/e84d134d",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -262,7 +262,7 @@ def professionalcertificates():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/305a694b",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -324,7 +324,7 @@ def careeradvancement():
                                     {
                                         "type": "web_url",
                                         "url": "http://tidd.ly/233060da",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -337,7 +337,7 @@ def careeradvancement():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/e303a440",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -350,7 +350,7 @@ def careeradvancement():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/2a7c5a70",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -363,7 +363,7 @@ def careeradvancement():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/831377cd",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -376,7 +376,7 @@ def careeradvancement():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/6a774a5f",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -389,7 +389,7 @@ def careeradvancement():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/c71cdbc9",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -402,7 +402,7 @@ def careeradvancement():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/62f5913e",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -415,7 +415,7 @@ def careeradvancement():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/4a3a7e00",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -428,7 +428,7 @@ def careeradvancement():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/5384934a",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -441,7 +441,7 @@ def careeradvancement():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/f513c6f8",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -506,7 +506,7 @@ def micromastersprograms():
                                     {
                                         "type": "web_url",
                                         "url": "http://tidd.ly/67462b",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -519,7 +519,7 @@ def micromastersprograms():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/ed799833",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -532,7 +532,7 @@ def micromastersprograms():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/e2ba4dfd",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -545,7 +545,7 @@ def micromastersprograms():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/dcee1df5",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -558,7 +558,7 @@ def micromastersprograms():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/caab7861",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -571,7 +571,7 @@ def micromastersprograms():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/e1c050e4",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -584,7 +584,7 @@ def micromastersprograms():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/1b9324da",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -597,7 +597,7 @@ def micromastersprograms():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/cb4f5d08",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -610,7 +610,7 @@ def micromastersprograms():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/d924a7cf",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -623,7 +623,7 @@ def micromastersprograms():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/1503510b",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -687,7 +687,7 @@ def advancedskillsetcourses():
                                     {
                                         "type": "web_url",
                                         "url": "http://tidd.ly/32b345b9",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -700,7 +700,7 @@ def advancedskillsetcourses():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/800182c2",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -713,7 +713,7 @@ def advancedskillsetcourses():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/546e1dd6",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -726,7 +726,7 @@ def advancedskillsetcourses():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/c0469ecc",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -739,7 +739,7 @@ def advancedskillsetcourses():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/b794c22b",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -752,7 +752,7 @@ def advancedskillsetcourses():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/2b2e4bba",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -765,7 +765,7 @@ def advancedskillsetcourses():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/973aab6b",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -778,7 +778,7 @@ def advancedskillsetcourses():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/e303a440",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -791,7 +791,7 @@ def advancedskillsetcourses():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/44237a71",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
@@ -804,7 +804,7 @@ def advancedskillsetcourses():
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/968d87dc",
-                                        "title": "Enroll Course for Free"
+                                        "title": "Enroll for Free"
                                     },
                                     {
                                         "type": "element_share"
