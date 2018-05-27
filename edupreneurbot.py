@@ -38,13 +38,13 @@ def webhook():
     global reqContext
     print (request.get_json(silent=True, force=True))
     reqContext = request.get_json(silent=True, force=True)
-    print("webhook---->" + reqContext.get("queryResult").get("action"))
+    print("webhook---->" + reqContext.get("result").get("action"))
 
-    if reqContext.get("queryResult").get("action") == "input.welcome.edwin":
+    if reqContext.get("result").get("action") == "input.welcome.edwin":
        return welcome()
-    elif reqContext.get("queryResult").get("action") == "showpopularcategories":
+    elif reqContext.get("result").get("action") == "showpopularcategories":
        return showpopularcategories()
-    elif reqContext.get("queryResult").get("action") == "professionalcourses":
+    elif reqContext.get("result").get("action") == "professionalcourses":
        return professionalcourses()
     else:
        print("Good Bye")
@@ -62,12 +62,12 @@ def welcome():
     print (data)
     if data is None:
         return {}
-    #entry = data.get('originalDetectIntentRequest')
-    platform = data.get('originalDetectIntentRequest').get('source')
+    #entry = data.get('originalRequest')
+    platform = data.get('originalRequest').get('source')
     print ("PLATFORM -->" + platform)
 
     if platform == "facebook":
-       id = data.get('originalDetectIntentRequest').get('payload').get('data').get('sender').get('id')
+       id = data.get('originalRequest').get('data').get('sender').get('id')
        print ("id :" + id)
        fb_info = "https://graph.facebook.com/v2.6/" + id + "?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=" + ACCESS_TOKEN
        print (fb_info)
@@ -76,12 +76,13 @@ def welcome():
        data = json.loads(result)
        first_name = data.get('first_name')
        print ("FACEBOOK: First Name -->" + first_name)
-   
-    speech1 = "I'm Edwin - your Academic Virtual Professor."
-    speech2 = "I'll help you explore online courses from world's best universities to boost your career."
+
+       
+    speech2 = "I'm Edwin - your Academic Virtual Professor."
+    speech3 = "I'll help you explore online courses from world's best universities to boost your career."
     res = {
-          "speech": speech1,
-          "displayText": speech1,
+          "speech": speech2,
+          "displayText": speech2,
            "data" : {
              "facebook" : [
                    {
@@ -106,10 +107,10 @@ def welcome():
                     "sender_action": "typing_on"
                   },
                  {
-                 "text": speech1
+                 "text": speech2
                   },
                  {
-                 "text": speech2
+                 "text": speech3
                   },
                  {
                   "text": "So, let's start. Shall we?",
@@ -126,10 +127,10 @@ def welcome():
                   "payload": "No Thanks",
                   "image_url": "http://gdurl.com/uViQ"
                    }
-                 ]
-               }
-            ]
-          }
+                  ]
+                 }
+               ]
+           }
        };
     print (res)
     res = json.dumps(res, indent=4)
