@@ -67,7 +67,7 @@ def welcome():
     print ("PLATFORM -->" + platform)
 
     if platform == "facebook":
-       id = data.get('originalRequest').get('data').get('sender').get('id')
+       id = data.get('originalRequest').get('data').get('data').get('sender').get('id')
        print ("id :" + id)
        fb_info = "https://graph.facebook.com/v2.6/" + id + "?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=" + ACCESS_TOKEN
        print (fb_info)
