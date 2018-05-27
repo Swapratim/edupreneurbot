@@ -155,9 +155,7 @@ def reply(user_id, msg):
 #                                                                                    #
 #************************************************************************************#
 
-def showpopularcategories(reqContext):
-    print (reqContext.get("result").get("action"))
-    #option = reqContext.get("result").get("action")
+def showpopularcategories():
     otherplatformstatement = "Great! I'll ask two questions only. Then only I can precisely tell whether you need a VISA or NOT to travel your destination country."
     res = {
         "speech": "Great! I'll ask two questions only",
