@@ -46,6 +46,8 @@ def webhook():
        return showpopularcategories()
     elif reqContext.get("result").get("action") == "professionalcourses":
        return professionalcourses()
+    elif reqContext.get("result").get("action") == "professionalcertificates":
+       return professionalcertificates()
     else:
        print("Good Bye")
 
@@ -222,7 +224,9 @@ def professionalcourses():
     print ("Within Main Page")
     professional_courses.professionalcourses()
     
-
+def professionalcertificates():
+    print ("Within Main Page")
+    professional_courses.professionalcertificates()
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
