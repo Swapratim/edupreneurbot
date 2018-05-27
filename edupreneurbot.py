@@ -76,12 +76,9 @@ def welcome():
        data = json.loads(result)
        first_name = data.get('first_name')
        print ("FACEBOOK: First Name -->" + first_name)
-
-       
-       
-    speech1 = "Hello! Welcome to online world of Digital Learning."
-    speech2 = "I'm Edwin - your Academic Virtual Professor."
-    speech3 = "I'll help you explore online courses from world's best universities to boost your career."
+   
+    speech1 = "I'm Edwin - your Academic Virtual Professor."
+    speech2 = "I'll help you explore online courses from world's best universities to boost your career."
     res = {
           "speech": speech1,
           "displayText": speech1,
@@ -109,10 +106,10 @@ def welcome():
                     "sender_action": "typing_on"
                   },
                  {
-                 "text": speech2
+                 "text": speech1
                   },
                  {
-                 "text": speech3
+                 "text": speech2
                   },
                  {
                   "text": "So, let's start. Shall we?",
@@ -129,10 +126,10 @@ def welcome():
                   "payload": "No Thanks",
                   "image_url": "http://gdurl.com/uViQ"
                    }
-                  ]
-                 }
-                ],
-            },
+                 ]
+               }
+            ]
+          }
        };
     print (res)
     res = json.dumps(res, indent=4)
@@ -207,8 +204,8 @@ def showpopularcategories(reqContext):
                   }
                   ]
                  }
-             ],
-          }, 
+             ]
+          } 
        };
     res = json.dumps(res, indent=4)
     r = make_response(res)
