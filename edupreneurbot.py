@@ -48,6 +48,12 @@ def webhook():
        return professional_courses.professionalcourses()
     elif reqContext.get("result").get("action") == "professionalcertificates":
        return professional_courses.professionalcertificates()
+    elif reqContext.get("result").get("action") == "careeradvancement":
+       return professional_courses.careeradvancement()
+    elif reqContext.get("result").get("action") == "micromastersprograms":
+       return professional_courses.micromastersprograms()
+    elif reqContext.get("result").get("action") == "advancedskillsetcourses":
+       return professional_courses.advancedskillsetcourses()
     else:
        print("Good Bye")
 
