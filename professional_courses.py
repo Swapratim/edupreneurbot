@@ -13,5 +13,5 @@ from flask import Flask
 from flask import request, render_template
 from flask import make_response
 
-def professionalcourses(reqContext):
+def professionalcourses():
     print ("I'm in the PROFESSIONAL COURSE method")

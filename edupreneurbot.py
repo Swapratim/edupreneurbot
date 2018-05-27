@@ -218,8 +218,8 @@ def showpopularcategories():
 #                                                                                    #
 #************************************************************************************#
 
-def professionalcourses(reqContext):
-    print (reqContext.get("result").get("action"))
+def professionalcourses():
+    print ("Within Main Page")
     professional_courses.professionalcourses()
     
 
