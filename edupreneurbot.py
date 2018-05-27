@@ -66,43 +66,6 @@ def welcome():
     platform = data.get('originalDetectIntentRequest').get('source')
     print ("PLATFORM -->" + platform)
 
-    if platform == "facebook":
-       id = data.get('originalDetectIntentRequest').get('payload').get('data').get('sender').get('id')
-       print ("id :" + id)
-       fb_info = "https://graph.facebook.com/v2.6/" + id + "?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=" + ACCESS_TOKEN
-       print (fb_info)
-       result = urllib.request.urlopen(fb_info).read()
-       print (result)
-       data = json.loads(result)
-       first_name = data.get('first_name')
-       print ("FACEBOOK: First Name -->" + first_name)
-
-       #####################################################################
-       # Opening Google Drive Excel to read and write userbase             #
-       # https://www.youtube.com/watch?v=vISRn5qFrkM                       #
-       #####################################################################
-
-       scope = ['https://spreadsheets.google.com/feeds',
-         'https://www.googleapis.com/auth/drive']
-       creds = ServiceAccountCredentials.from_json_keyfile_name("client_secret.json", scope)
-       client = gspread.authorize(creds)
-       
-       sheet = client.open("Visa CheckBot Global User Database").worksheet("user_table")
-       user_table = sheet.get_all_records()
-       pp = pprint.PrettyPrinter()
-       #print (sheet.row_count)
-       pp.pprint (user_table)
-
-       # INSERT USER DETAILS FROM FACEBOOK API
-       row = [str(data.get('first_name')), str(data.get('last_name')), str(data.get('gender')), str(data.get('id'))]
-       print (row)
-       
-       # STOP DUPLICACY OF USER DATA
-       if str(data.get('id')) in sheet.col_values(4):
-          print ("Nothing to print")
-       elif str(data.get('id')) not in sheet.col_values(4):
-          sheet.insert_row(row)
-       
     speech1 = "Hello! Welcome to online world of Digital Learning."
     speech2 = "I'm Edwin - your Academic Virtual Professor."
     speech3 = "I'll help you explore online courses from world's best universities to boost your career."
