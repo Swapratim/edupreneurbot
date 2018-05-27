@@ -57,8 +57,7 @@ def webhook():
 #   This method is to get the Facebook User Deatails via graph.facebook.com/v2.6     #
 #                                                                                    #
 #************************************************************************************#
-nationality = "False"
-destinationcountry = "False"
+
 def welcome():
     data = request.json
     global first_name
@@ -224,13 +223,13 @@ def professionalcourses():
     print ("Within Main Page")
     r = "Within Main Page"
     professional_courses.professionalcourses()
-    return r
+    #return r
     
 def professionalcertificates():
     print ("Within Main Page")
     r = "Within Main Page"
     professional_courses.professionalcertificates()
-    return r
+    #return r
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
