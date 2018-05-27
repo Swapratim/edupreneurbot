@@ -75,6 +75,7 @@ def welcome():
        print (result)
        data = json.loads(result)
        first_name = data.get('first_name')
+       global first_name
        print ("FACEBOOK: First Name -->" + first_name)
 
        
