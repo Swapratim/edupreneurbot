@@ -45,7 +45,7 @@ def webhook():
     elif reqContext.get("result").get("action") == "showpopularcategories":
        return showpopularcategories()
     elif reqContext.get("result").get("action") == "professionalcourses":
-       return professionalcourses()
+       return professional_courses.professionalcourses()
     elif reqContext.get("result").get("action") == "professionalcertificates":
        return professionalcertificates()
     else:
