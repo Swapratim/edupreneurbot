@@ -31,13 +31,13 @@ ACCESS_TOKEN = "EAAZAAAauLaJYBAAZC4wh4KypFPHnjyjGzYnd0UCo35hD37efh8nC43nZC0wpZCa
 #    All Webhook requests lands within the method --webhook                          #
 #                                                                                    #
 #************************************************************************************#
-reqContext = None
+#reqContext = None
 # Webhook requests are coming to this method
 @context.route('/webhook', methods=['POST'])
 def webhook():
     global reqContext
     reqContext = request.get_json(silent=True, force=True)
-    #print("webhook---->" + reqContext.get("result").get("action"))
+    print("webhook---->" + reqContext.get("result").get("action"))
 
     if reqContext.get("result").get("action") == "input.welcome":
        return welcome()
