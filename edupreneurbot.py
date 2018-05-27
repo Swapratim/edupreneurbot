@@ -40,11 +40,11 @@ def webhook():
     reqContext = request.get_json(silent=True, force=True)
     print("webhook---->" + reqContext.get("queryResult").get("action"))
 
-    if reqContext.get("result").get("action") == "input.welcome.edwin":
+    if reqContext.get("queryResult").get("action") == "input.welcome.edwin":
        return welcome()
-    elif reqContext.get("result").get("action") == "showpopularcategories":
+    elif reqContext.get("queryResult").get("action") == "showpopularcategories":
        return showpopularcategories()
-    elif reqContext.get("result").get("action") == "professionalcourses":
+    elif reqContext.get("queryResult").get("action") == "professionalcourses":
        return professionalcourses()
     else:
        print("Good Bye")
