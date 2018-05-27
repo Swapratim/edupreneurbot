@@ -34,7 +34,7 @@ def professionalcourses():
                        "elements" : [ 
                                  {
                                    "title" : "Professional Certificates",
-                                   "image_url" : "https://st2.depositphotos.com/4520249/7633/v/950/depositphotos_76335059-stock-illustration-diploma-career-icon.jpg",
+                                   "image_url" : "http://www.businesslinkuae.com/wp-content/uploads/2016/02/Professional-Company-Formation-Dubai.jpg",
                                    "subtitle" : "Best guidance to reach top at your career",
                                    "buttons": [{
                                         "type": "postback",
@@ -47,7 +47,7 @@ def professionalcourses():
                                  }, 
                                  {
                                    "title" : "Career Advancement",
-                                   "image_url" : "https://smith.queensu.ca/_templates/images/content/icons/career.png",
+                                   "image_url" : "https://www.manager.bg/sites/default/files/mainimages/0f94af1.jpg",
                                    "subtitle" : "Learn most high paid skills and give a boost to your career",
                                    "buttons": [{
                                         "type": "postback",
@@ -60,7 +60,7 @@ def professionalcourses():
                                  },
                                  {
                                    "title" : "Micromasters Program",
-                                   "image_url" : "https://cdn.allalliedhealthschools.com/wp-content/uploads/2016/09/HSHub-master-icon.png",
+                                   "image_url" : "http://blog.edx.org/wp-content/uploads/2017/06/micromasters-edx-hero.jpg",
                                    "subtitle" : "Earn professional degrees from top universities",
                                    "buttons": [{
                                         "type": "postback",
@@ -73,7 +73,7 @@ def professionalcourses():
                                  },
                                  {
                                    "title" : "Advanced Skilled Courses",
-                                   "image_url" : "http://www.iti.ae/wp-content/uploads/2014/04/icon-ux-blue.png",
+                                   "image_url" : "https://6lli539m39y3hpkelqsm3c2fg-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/shutterstock_life_science-405x228.jpgg",
                                    "subtitle" : "Earn professional degrees from top universities",
                                    "buttons": [{
                                         "type": "postback",

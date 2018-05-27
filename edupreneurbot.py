@@ -222,11 +222,15 @@ def showpopularcategories():
 
 def professionalcourses():
     print ("Within Main Page")
+    r = "Within Main Page"
     professional_courses.professionalcourses()
+    return r
     
 def professionalcertificates():
     print ("Within Main Page")
+    r = "Within Main Page"
     professional_courses.professionalcertificates()
+    return r
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
