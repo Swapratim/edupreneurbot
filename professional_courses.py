@@ -92,9 +92,6 @@ def professionalcourses():
                                         "type": "postback",
                                         "title": "Back",
                                         "payload": "BackToProfessionalCourses"
-                                    },
-                                    {
-                                        "type": "element_share"
                                     }]
                                  }
                            ]
