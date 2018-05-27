@@ -178,7 +178,7 @@ def showpopularcategories():
                     "sender_action": "typing_on"
               },
               {
-                  "text": "Ready?",
+                  "text": "Choose any of the below categories:",
                   "quick_replies": [
                  {
                   "content_type": "text",

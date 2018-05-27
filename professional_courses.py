@@ -23,10 +23,10 @@ def professionalcourses():
                {
                 "text": "Excel your career with recent advancements around. Select the latest trendy categories & explore."
                },
-              {
+               {
                     "sender_action": "typing_on"
-              },
-              {
+               },
+               {
                  "attachment" : {
                    "type" : "template",
                      "payload" : {
