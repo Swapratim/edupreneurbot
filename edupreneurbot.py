@@ -10,7 +10,7 @@ import os
 import sys
 #import urlparse
 from urllib.parse import urljoin
-import emoji
+#import emoji
 import pprint
 
 from flask import Flask
