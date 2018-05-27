@@ -59,6 +59,7 @@ nationality = "False"
 destinationcountry = "False"
 def welcome():
     data = request.json
+    global first_name
     print (data)
     if data is None:
         return {}
@@ -75,7 +76,6 @@ def welcome():
        print (result)
        data = json.loads(result)
        first_name = data.get('first_name')
-       global first_name
        print ("FACEBOOK: First Name -->" + first_name)
 
        
