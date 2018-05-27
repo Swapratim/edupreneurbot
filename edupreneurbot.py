@@ -66,6 +66,19 @@ def welcome():
     platform = data.get('originalDetectIntentRequest').get('source')
     print ("PLATFORM -->" + platform)
 
+    if platform == "facebook":
+       id = data.get('originalDetectIntentRequest').get('payload').get('data').get('sender').get('id')
+       print ("id :" + id)
+       fb_info = "https://graph.facebook.com/v2.6/" + id + "?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=" + ACCESS_TOKEN
+       print (fb_info)
+       result = urllib.request.urlopen(fb_info).read()
+       print (result)
+       data = json.loads(result)
+       first_name = data.get('first_name')
+       print ("FACEBOOK: First Name -->" + first_name)
+
+       
+       
     speech1 = "Hello! Welcome to online world of Digital Learning."
     speech2 = "I'm Edwin - your Academic Virtual Professor."
     speech3 = "I'll help you explore online courses from world's best universities to boost your career."
