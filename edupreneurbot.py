@@ -38,7 +38,7 @@ def webhook():
     global reqContext
     print (request.get_json(silent=True, force=True))
     reqContext = request.get_json(silent=True, force=True)
-    print("webhook---->" + reqContext.get("result").get("action"))
+    print("webhook---->" + reqContext.get("queryResult").get("action"))
 
     if reqContext.get("result").get("action") == "input.welcome.edwin":
        return welcome()
