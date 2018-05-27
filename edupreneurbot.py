@@ -39,7 +39,7 @@ def webhook():
     reqContext = request.get_json(silent=True, force=True)
     print("webhook---->" + reqContext.get("result").get("action"))
 
-    if reqContext.get("result").get("action") == "input.welcome":
+    if reqContext.get("result").get("action") == "input.welcome.edwin":
        return welcome()
     elif reqContext.get("result").get("action") == "showpopularcategories":
        return showpopularcategories()
