@@ -256,19 +256,6 @@ def professionalcertificates():
                                     {
                                         "type": "element_share"
                                     }]
-                                 },
-                                 {
-                                   "title" : "Back",
-                                   "image_url" : "https://maxcdn.icons8.com/Share/icon/Arrows/reply_all_arrow_filled1600.png",
-                                   "subtitle" : "Get back to previous step",
-                                   "buttons": [{
-                                        "type": "postback",
-                                        "title": "Back",
-                                        "payload": "BackToProfessionalCourses"
-                                    },
-                                    {
-                                        "type": "element_share"
-                                    }]
                                  }
                            ]
                        } 
