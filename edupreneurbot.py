@@ -18,15 +18,14 @@ from flask import request, render_template
 from flask import make_response
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import professional_courses
 
 
 # Flask should start in global layout
 context = Flask(__name__)
 # Facbook Access Token
-ACCESS_TOKEN = "EAADSsDjm6gIBANlzUbBmbFLGpNvZBhnZCEw71BSMvwQZCK8n9KjaY5Pf8P5ZAZBlt9mKcLHe2AmU5hgq7XZAc4vedP5ISpyuRIBKuWMvYx6YI6976r5qpZBsI8vSoU4pmqvVqffjNVJuvCttk7EykTb9tUfHWCnjfivwKUZAA1S4WQZDZD"
-# Google Sheet Credentials
-#CLIENT_ID = "107898040430223609451"
-#LIENT_SECRET = '<Client secret from Google API Console>'
+ACCESS_TOKEN = "EAAZAAAauLaJYBAAZC4wh4KypFPHnjyjGzYnd0UCo35hD37efh8nC43nZC0wpZCaOs9XZC36VUNFI2cxM89RYDjoTWlrDQvHwY54Cgkq27epEshVHlWCk6Bs58DK0SEimuCZBvZC5TUg4cGK1TZAKqJ9B7zCCK7qlwgmVzJcbCAVnAQZDZD"
+
 #************************************************************************************#
 #                                                                                    #
 #    All Webhook requests lands within the method --webhook                          #
@@ -38,11 +37,14 @@ reqContext = None
 def webhook():
     global reqContext
     reqContext = request.get_json(silent=True, force=True)
-    #print(json.dumps(reqContext, indent=4))
     print("webhook---->" + reqContext.get("result").get("action"))
-    print ("webhook is been hit ONCE ONLY")
+
     if reqContext.get("result").get("action") == "input.welcome":
        return welcome()
+    elif reqContext.get("result").get("action") == "showpopularcategories":
+       return showpopularcategories()
+    elif reqContext.get("result").get("action") == "professionalcourses":
+       return professionalcourses()
     else:
        print("Good Bye")
 
@@ -100,20 +102,9 @@ def welcome():
        elif str(data.get('id')) not in sheet.col_values(4):
           sheet.insert_row(row)
        
-    elif platform == "telegram":
-       first_name = data.get('originalRequest').get('data').get('message').get('chat').get('first_name')
-       print ("TELEGRAM: First Name -->" + first_name)
-    elif platform == "skype":
-       first_name = "to Visa CheckBot"
-       print ("SKYPE: Within Python")
-    elif platform == "slack":
-       first_name = "to Visa CheckBot"
-       print ("SKYPE: Within Python")
-    elif platform == "kik":
-       first_name = data.get('originalRequest').get('data').get('from')
-       print ("KiK: Within Python")
-       
-    speech1 = "This is your one stop solution for visa related enquiry. "
+    speech1 = "Hello! Welcome to online world of Digital Learning."
+    speech2 = "I'm Edwin - your Academic Virtual Professor."
+    speech3 = "I'll help you explore online courses from world's best universities to boost your career."
     res = {
           "speech": speech1,
           "displayText": speech1,
@@ -129,8 +120,9 @@ def welcome():
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Welcome " + first_name + "! ",
-                                   "image_url" : "http://gdurl.com/eDd3J",
+                                   "title" : "Hello! " + first_name + "!",
+                                   "image_url" : "https://cdn-images-1.medium.com/max/1366/0*V6bjHlIV81dWUSWp.",
+                                   "subtitle" : "Welcome to online world of Digital Learning!"
                                  } 
                            ]
                        } 
@@ -140,7 +132,10 @@ def welcome():
                     "sender_action": "typing_on"
                   },
                  {
-                 "text": speech1
+                 "text": speech2
+                  },
+                 {
+                 "text": speech3
                   },
                  {
                   "text": "So, let's start. Shall we?",
@@ -160,100 +155,8 @@ def welcome():
                   ]
                  }
                 ],
-            "telegram": {
-                 "parse_mode": "markdown",
-                 "text": "[​​​​​​​​​​​](https://goo.gl/eAfyr9) Welcome " + first_name + "! " + speech1 + "So let's start, shall we?",
-                 "reply_markup": { 
-                   "inline_keyboard": [ 
-                        [{ "callback_data": "Yeah Sure", "text": "Yeah Sure" }], 
-                        [{ "callback_data": "No Thanks", "text": "No Thanks" }] 
-                       ] 
-                   }
-                },
-           "slack": {
-                 "text": speech1,
-                 "attachments": [
-                   {
-                    "fallback": "You are unable to proceed",
-                    "callback_id": "intro_block",
-                    "color": "#3AA3E3",
-                    "image_url": "https://goo.gl/eAfyr9",
-                    "text": "So, let's start. Shall we?",
-                    "attachment_type": "default",
-                    "actions": [
-                         {
-                            "name": "Yeah Sure",
-                            "text": "Yeah Sure",
-                            "type": "button",
-                            "value": "Yeah Sure"
-                         },
-                         {
-                            "name": "No Thanks",
-                            "text": "No Thanks",
-                            "type": "button",
-                            "value": "No Thanks"
-                         }
-                     ]
-                  }
-                ]
-              },
-           "kik": {
-                 "type": "text",
-                 "body": "Welcome " + first_name + "! " + speech1 + "So let's start, shall we?",
-                 "keyboards": [
-                        {
-                    "type": "suggested",
-                    "responses": [
-                        {
-                            "type": "text",
-                            "body": "Yeah Sure"
-                        },
-                        {
-                            "type": "text",
-                            "body": "No Thanks"
-                        }
-                      ]
-                    }
-                 ]
-              }
-          },
-        "messages": [
-        {
-          "type": 4,
-          "platform": "skype",
-          "payload": {
-            "skype": {
-              "type": "message",
-              "text": "Hi",
-              "attachments": [
-                {
-                  "contentType": "application/vnd.microsoft.card.hero",
-                  "content": {
-                    "title": "Welcome to Visa CheckBot",
-                    "subtitle": "Your one stop solution for Visa check",
-                    "images": [
-                      {
-                        "url": "https://goo.gl/eAfyr9"
-                      }
-                    ],
-                   "buttons": [{
-                            "type":"postBack",
-                            "title": "Yeah Sure",
-                            "value": "Yeah Sure"
-                    },
-                    {
-                            "type":"postBack",
-                            "title": "No Thanks",
-                            "value": "No Thanks"
-                    }]
-                  }
-                }
-              ]
-            }
-          }
-        }
-       ],
-     };
+            },
+       };
     print (res)
     res = json.dumps(res, indent=4)
     r = make_response(res)
@@ -273,9 +176,78 @@ def reply(user_id, msg):
 
 #************************************************************************************#
 #                                                                                    #
-#   Tell USER about Visa Check Bot - ASK TWO QUESTIONS                               #
+#             Edwin - Show popular course categories to users                        #
 #                                                                                    #
 #************************************************************************************#
+
+def showpopularcategories(reqContext):
+    print (reqContext.get("result").get("action"))
+    #option = reqContext.get("result").get("action")
+    otherplatformstatement = "Great! I'll ask two questions only. Then only I can precisely tell whether you need a VISA or NOT to travel your destination country."
+    res = {
+        "speech": "Great! I'll ask two questions only",
+        "displayText": "Great! I'll ask two questions only",
+        "data" : {
+        "facebook" : [
+               {
+                "text": "Wise choice " + first_name + ". Add certificates to your CV and shine at your workplace."
+               },
+              {
+                    "sender_action": "typing_on"
+              },
+              {
+                 "text": "From professionals to students - I offer the right courses to choose within."
+              },
+              {
+                    "sender_action": "typing_on"
+              },
+              {
+                  "text": "Ready?",
+                  "quick_replies": [
+                 {
+                  "content_type": "text",
+                  "title": "Professional Courses",
+                  "payload": "Professional Courses",
+                  "image_url": "http://uploads.webflow.com/560a7ccceb20834648665497/560a7ccceb20834648665546_icone-formation-ligne.png"
+                 },
+                 {
+                  "content_type": "text",
+                  "title": "Popular Courses",
+                  "payload": "Popular Courses",
+                  "image_url": "https://www.deltalearn.in/public//course_files/no_course_image.png"
+                  },
+                 {
+                  "content_type": "text",
+                  "title": "Science Courses",
+                  "payload": "Science Courses",
+                  "image_url": "https://cdn2.iconfinder.com/data/icons/energy-technology-flat/2048/274_-_Atom-128.png"
+                  },
+                 {
+                  "content_type": "text",
+                  "title": "Arts Courses",
+                  "payload": "Arts Courses",
+                  "image_url": "https://www.lmc.ac.uk/images/logos/Art.jpg"
+                  }
+                  ]
+                 }
+             ],
+          }, 
+       };
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return r
+
+#************************************************************************************#
+#                                                                                    #
+#             Edwin - Professional Course Categories                                 #
+#                                                                                    #
+#************************************************************************************#
+
+def professionalcourses(reqContext):
+    print (reqContext.get("result").get("action"))
+    professional_courses.professionalcourses()
+    
 
 
 if __name__ == '__main__':
