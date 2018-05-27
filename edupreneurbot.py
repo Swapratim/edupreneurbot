@@ -16,8 +16,8 @@ import pprint
 from flask import Flask
 from flask import request, render_template
 from flask import make_response
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
+#import gspread
+#from oauth2client.service_account import ServiceAccountCredentials
 import professional_courses
 
 
