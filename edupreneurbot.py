@@ -20,8 +20,8 @@ from flask import make_response
 #from oauth2client.service_account import ServiceAccountCredentials
 import professional_courses
 import popular_courses
-from popular_courses import computer_science
-from popular_courses import data_and_statistics
+from popular_courses.computer_science import computer_science
+from popular_courses.data_and_statistics import data_and_statistics
 
 # Flask should start in global layout
 context = Flask(__name__)
