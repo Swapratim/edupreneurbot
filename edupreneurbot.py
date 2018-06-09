@@ -20,7 +20,7 @@ from flask import make_response
 #from oauth2client.service_account import ServiceAccountCredentials
 import professional_courses
 import popular_course
-#sys.path.insert(0, "/popularCourses")
+sys.path.insert(0, "/popularCourses")
 import computer_science
 
 
