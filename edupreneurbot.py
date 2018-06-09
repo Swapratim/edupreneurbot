@@ -8,7 +8,6 @@ import urllib.request, urllib.parse, urllib.error
 import json
 import os
 import sys
-sys.path.insert(0, "/popular_courses")
 #import urlparse
 from urllib.parse import urljoin
 #import emoji
@@ -21,8 +20,9 @@ from flask import make_response
 #from oauth2client.service_account import ServiceAccountCredentials
 import professional_courses
 import popular_courses
-import computer_science
-import data_and_statistics
+sys.path.insert(0, "/popular_courses")
+from popular_courses import computer_science
+
 
 # Flask should start in global layout
 context = Flask(__name__)
