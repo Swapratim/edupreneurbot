@@ -18,7 +18,7 @@ from flask import make_response
 #   POPULAR COURSE CATEGORY - SHOWS FOUR MAJOR CATEGORIES EACH WITH 10 ITEMS         #
 #                                                                                    #
 #************************************************************************************#
-def popularcourses():
+def popularcourselist():
     print ("I'm in the popularcourses  method")
     res = {
         "speech": "Taking up popular courses is a quick way to accelerate your career",
