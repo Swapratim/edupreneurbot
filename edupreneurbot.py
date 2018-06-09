@@ -19,7 +19,7 @@ from flask import make_response
 #import gspread
 #from oauth2client.service_account import ServiceAccountCredentials
 import professional_courses
-import popular_courses
+import popular_course
 #sys.path.insert(0, "/popularCourses")
 import computer_science
 
@@ -58,7 +58,7 @@ def webhook():
     elif reqContext.get("result").get("action") == "advancedskillsetcourses":
        return professional_courses.advancedskillsetcourses()
     elif reqContext.get("result").get("action") == "popularcourses":
-       return popular_courses.popularcourselist()
+       return popular_course.popularcourselist()
     elif reqContext.get("result").get("action") == "computerscience":
        return computer_science.computerscience()
     elif reqContext.get("result").get("action") == "data_and_statistics":
