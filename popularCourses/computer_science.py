@@ -19,7 +19,7 @@ from flask import make_response
 #                                                                                    #
 #************************************************************************************#
 def computerscience():
-    print ("I'm in the popularcourses  method")
+    print ("I'm in the subdirectory ******************************popularcourses  method")
     res = {
         "speech": "Taking up popular courses is a quick way to accelerate your career",
         "displayText": "Taking up popular courses is a quick way to accelerate your career",
