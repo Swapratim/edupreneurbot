@@ -19,7 +19,9 @@ from flask import make_response
 #import gspread
 #from oauth2client.service_account import ServiceAccountCredentials
 import professional_courses
-
+import popular_courses
+from popular_courses import computer_science
+from popular_courses import data_and_statistics
 
 # Flask should start in global layout
 context = Flask(__name__)
@@ -54,6 +56,12 @@ def webhook():
        return professional_courses.micromastersprograms()
     elif reqContext.get("result").get("action") == "advancedskillsetcourses":
        return professional_courses.advancedskillsetcourses()
+    elif reqContext.get("result").get("action") == "popularcourses":
+       return popular_courses.popularcourses()
+    elif reqContext.get("result").get("action") == "computerscience":
+       return computer_science.computerscience()
+    elif reqContext.get("result").get("action") == "data_and_statistics":
+       return data_and_statistics.data_and_statistics()
     else:
        print("Good Bye")
 
