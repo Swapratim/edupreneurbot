@@ -20,8 +20,8 @@ from flask import make_response
 #from oauth2client.service_account import ServiceAccountCredentials
 import professional_courses
 import popular_courses
-sys.path.insert(0, "/popular_courses")
-from popular_courses import computer_science
+#sys.path.insert(0, "/popularCourses")
+import computer_science
 
 
 # Flask should start in global layout
