@@ -18,8 +18,8 @@ from flask import make_response
 #   POPULAR COURSE CATEGORY - SHOWS MAJOR CATEGORIES EACH WITH 10 ITEMS              #
 #                                                                                    #
 #************************************************************************************#
-def computerscience():
-    print ("I'm in the computerscience*************####&&&  method")
+def mathematics():
+    print ("I'm in the mathematics  method")
     res = {
         "speech": "Taking up popular courses is a quick way to accelerate your career",
         "displayText": "Taking up popular courses is a quick way to accelerate your career",
@@ -38,12 +38,12 @@ def computerscience():
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Robotics",
+                                   "title" : "Introduction to Probability",
                                    "image_url" : "",
-                                   "subtitle" : "Vision Intelligence & Machine Learning",
+                                   "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/a06e249a",
+                                        "url": "http://tidd.ly/8e8c954",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -51,12 +51,12 @@ def computerscience():
                                     }]
                                  }, 
                                  {
-                                   "title" : "Introduction to Computational Thinking",
+                                   "title" : "Relativity & Astrophysics",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/d10bf051",
+                                        "url": "http://tidd.ly/60b1bdd3",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -64,12 +64,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "UX Design: From Concept to Wireframe",
+                                   "title" : "Essential Mathematics for Artificial Intelligence",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/6317fe63",
+                                        "url": "http://tidd.ly/7fbf3fe4",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -77,12 +77,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Introduction to Java Programming",
+                                   "title" : "Linear Algebra - Foundations to Frontiers",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/15632da2",
+                                        "url": "http://tidd.ly/3932b894",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -90,12 +90,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "AWS Developer: Deploying to AWS",
+                                   "title" : "College Algebra and Problem Solving",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/f8f99b57",
+                                        "url": "http://tidd.ly/2b140932",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -103,12 +103,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "IT Support: Cloud Fundamentals",
+                                   "title" : "Graph Algorithms in Genome Sequencing",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/97b56c0c",
+                                        "url": "http://tidd.ly/bc97ec81",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -116,12 +116,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Principles of Machine Learning",
+                                   "title" : "Mathematical Modelling Basics",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/e285776c",
+                                        "url": "http://tidd.ly/729c86c6",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -129,12 +129,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Introduction to OpenStack",
+                                   "title" : "Paradox and infinity",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/e5399528",
+                                        "url": "http://tidd.ly/9a40229d",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -142,12 +142,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Infrastruture As a Code",
+                                   "title" : "Computational Neuroscience: Neuronal Dynamics of Cognition",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/ddc74bca",
+                                        "url": "http://tidd.ly/383c4092",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -155,12 +155,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "DevOps for Mobile Apps",
+                                   "title" : "Pre-University Calculus",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/fc77e59",
+                                        "url": "http://tidd.ly/57d30915",
                                         "title": "Enroll for Free"
                                     },
                                     {

@@ -18,8 +18,8 @@ from flask import make_response
 #   POPULAR COURSE CATEGORY - SHOWS MAJOR CATEGORIES EACH WITH 10 ITEMS              #
 #                                                                                    #
 #************************************************************************************#
-def computerscience():
-    print ("I'm in the computerscience*************####&&&  method")
+def chemistry():
+    print ("I'm in the chemistry  method")
     res = {
         "speech": "Taking up popular courses is a quick way to accelerate your career",
         "displayText": "Taking up popular courses is a quick way to accelerate your career",
@@ -38,12 +38,12 @@ def computerscience():
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Robotics",
+                                   "title" : "Medicinal Chemistry: The Molecular Basis of Drug Discovery",
                                    "image_url" : "",
-                                   "subtitle" : "Vision Intelligence & Machine Learning",
+                                   "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/a06e249a",
+                                        "url": "http://tidd.ly/5a158c0d",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -51,12 +51,12 @@ def computerscience():
                                     }]
                                  }, 
                                  {
-                                   "title" : "Introduction to Computational Thinking",
+                                   "title" : "Quantum Mechanics of Molecular Structures",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/d10bf051",
+                                        "url": "http://tidd.ly/5698c37b",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -64,12 +64,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "UX Design: From Concept to Wireframe",
+                                   "title" : "Introduction to Solid State Chemistry",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/6317fe63",
+                                        "url": "http://tidd.ly/3cc8c20d",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -77,12 +77,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Introduction to Java Programming",
+                                   "title" : "Industrial Biotechnology",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/15632da2",
+                                        "url": "http://tidd.ly/cba6755a",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -90,12 +90,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "AWS Developer: Deploying to AWS",
+                                   "title" : "Preparing for CLEP Chemistry",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/f8f99b57",
+                                        "url": "http://tidd.ly/2044a4fb",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -103,12 +103,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "IT Support: Cloud Fundamentals",
+                                   "title" : "Principles of Biochemistry",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/97b56c0c",
+                                        "url": "http://tidd.ly/ef1a4c4b",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -116,12 +116,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Principles of Machine Learning",
+                                   "title" : "Metabolomics in Life Sciences",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/e285776c",
+                                        "url": "http://tidd.ly/60e9e7a7",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -129,12 +129,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Introduction to OpenStack",
+                                   "title" : "Cement Chemistry and Sustainable Cementitious Materials",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/e5399528",
+                                        "url": "http://tidd.ly/e4f0a42e",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -142,12 +142,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Infrastruture As a Code",
+                                   "title" : "Science in Art: The Chemistry of Art Materials",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/ddc74bca",
+                                        "url": "http://tidd.ly/898203c0",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -155,12 +155,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "DevOps for Mobile Apps",
+                                   "title" : "Global Warming Science",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/fc77e59",
+                                        "url": "http://tidd.ly/588ac61f",
                                         "title": "Enroll for Free"
                                     },
                                     {

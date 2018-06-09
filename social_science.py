@@ -18,8 +18,8 @@ from flask import make_response
 #   POPULAR COURSE CATEGORY - SHOWS MAJOR CATEGORIES EACH WITH 10 ITEMS              #
 #                                                                                    #
 #************************************************************************************#
-def computerscience():
-    print ("I'm in the computerscience*************####&&&  method")
+def social_science():
+    print ("I'm in the social_science  method")
     res = {
         "speech": "Taking up popular courses is a quick way to accelerate your career",
         "displayText": "Taking up popular courses is a quick way to accelerate your career",
@@ -38,12 +38,12 @@ def computerscience():
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Robotics",
+                                   "title" : "Global Media, War and Technology",
                                    "image_url" : "",
-                                   "subtitle" : "Vision Intelligence & Machine Learning",
+                                   "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/a06e249a",
+                                        "url": "http://tidd.ly/9dc70dd8",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -51,12 +51,12 @@ def computerscience():
                                     }]
                                  }, 
                                  {
-                                   "title" : "Introduction to Computational Thinking",
+                                   "title" : "Psychology of Personal Growth",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/d10bf051",
+                                        "url": "http://tidd.ly/1d29bdb2",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -64,12 +64,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "UX Design: From Concept to Wireframe",
+                                   "title" : "Adaptive Leadership in Development",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/6317fe63",
+                                        "url": "http://tidd.ly/47f0891f",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -77,12 +77,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Introduction to Java Programming",
+                                   "title" : "The Psychology of Criminal Justice",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/15632da2",
+                                        "url": "http://tidd.ly/4c89bd9",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -90,12 +90,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "AWS Developer: Deploying to AWS",
+                                   "title" : "The Science of Parenting",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/f8f99b57",
+                                        "url": "http://tidd.ly/f513c6f8",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -103,12 +103,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "IT Support: Cloud Fundamentals",
+                                   "title" : "The Science of Everyday Thinking",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/97b56c0c",
+                                        "url": "http://tidd.ly/29990dba",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -116,12 +116,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Principles of Machine Learning",
+                                   "title" : "Corporate Social responsibility(CSR)",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/e285776c",
+                                        "url": "http://tidd.ly/1989187",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -129,12 +129,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Introduction to OpenStack",
+                                   "title" : "Urban Infrastructure Management",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/e5399528",
+                                        "url": "http://tidd.ly/2cf137d6",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -142,12 +142,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Infrastruture As a Code",
+                                   "title" : "Behavioral Economics in Action",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/ddc74bca",
+                                        "url": "http://tidd.ly/61c0a9e",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -155,12 +155,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "DevOps for Mobile Apps",
+                                   "title" : "Comparative Political Systems",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/fc77e59",
+                                        "url": "http://tidd.ly/8ba81410",
                                         "title": "Enroll for Free"
                                     },
                                     {

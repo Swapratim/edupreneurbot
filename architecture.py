@@ -18,8 +18,8 @@ from flask import make_response
 #   POPULAR COURSE CATEGORY - SHOWS MAJOR CATEGORIES EACH WITH 10 ITEMS              #
 #                                                                                    #
 #************************************************************************************#
-def computerscience():
-    print ("I'm in the computerscience*************####&&&  method")
+def architecture():
+    print ("I'm in the architecture  method")
     res = {
         "speech": "Taking up popular courses is a quick way to accelerate your career",
         "displayText": "Taking up popular courses is a quick way to accelerate your career",
@@ -38,12 +38,12 @@ def computerscience():
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Robotics",
+                                   "title" : "The Architectural Imagination",
                                    "image_url" : "",
-                                   "subtitle" : "Vision Intelligence & Machine Learning",
+                                   "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/a06e249a",
+                                        "url": "http://tidd.ly/690eace",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -51,12 +51,12 @@ def computerscience():
                                     }]
                                  }, 
                                  {
-                                   "title" : "Introduction to Computational Thinking",
+                                   "title" : "Sustainability in Architecture",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/d10bf051",
+                                        "url": "http://tidd.ly/e4b32ba6",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -64,12 +64,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "UX Design: From Concept to Wireframe",
+                                   "title" : "Mechanics of Deformable Structures",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/6317fe63",
+                                        "url": "http://tidd.ly/2fdcb70",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -77,12 +77,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Introduction to Java Programming",
+                                   "title" : "A Global History of Architecture",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/15632da2",
+                                        "url": "http://tidd.ly/9da9ceb7",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -90,12 +90,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "AWS Developer: Deploying to AWS",
+                                   "title" : "Urban Design for the Public Good",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/f8f99b57",
+                                        "url": "http://tidd.ly/9ba9ad4e",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -103,12 +103,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "IT Support: Cloud Fundamentals",
+                                   "title" : "Responsive Cities",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/97b56c0c",
+                                        "url": "http://tidd.ly/735db8f7",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -116,12 +116,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Principles of Machine Learning",
+                                   "title" : "Ecodesign for Cities and Suburbs",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/e285776c",
+                                        "url": "http://tidd.ly/2e62663e",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -129,12 +129,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Introduction to OpenStack",
+                                   "title" : "Modern Japanese Architecture",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/e5399528",
+                                        "url": "http://tidd.ly/70b64004",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -142,12 +142,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "Infrastruture As a Code",
+                                   "title" : "Vernacular Architecture of Asia",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/ddc74bca",
+                                        "url": "http://tidd.ly/69d01348",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -155,12 +155,12 @@ def computerscience():
                                     }]
                                  },
                                  {
-                                   "title" : "DevOps for Mobile Apps",
+                                   "title" : "Smart Cities",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/fc77e59",
+                                        "url": "http://tidd.ly/7ce16bb5",
                                         "title": "Enroll for Free"
                                     },
                                     {

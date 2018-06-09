@@ -20,9 +20,34 @@ from flask import make_response
 #from oauth2client.service_account import ServiceAccountCredentials
 import professional_courses
 import popular_course
-sys.path.insert(0, "/popularCourses")
+#sys.path.insert(0, "/popularCourses")
 import computer_science
-
+import data_and_statistics
+import business_management
+import language
+import economics_and_finance
+import engineering
+import humanities
+import life_sciences
+import science_courses
+import chemistry
+import electronics
+import environmental_studies
+import mathematics
+import medicine
+import physics
+import social_science
+import energy_and_earth_science
+import art_courses
+import architecture
+import art_and_culture
+import communication
+import design
+import food_and_nutrition
+import health_and_safety
+import history
+import music
+import law
 
 # Flask should start in global layout
 context = Flask(__name__)
@@ -63,6 +88,56 @@ def webhook():
        return computer_science.computerscience()
     elif reqContext.get("result").get("action") == "data_and_statistics":
        return data_and_statistics.data_and_statistics()
+    elif reqContext.get("result").get("action") == "business_management":
+       return business_management.business_management()
+    elif reqContext.get("result").get("action") == "language":
+       return language.language()
+    elif reqContext.get("result").get("action") == "economics_and_finance":
+       return economics_and_finance.economics_and_finance()
+    elif reqContext.get("result").get("action") == "engineering":
+       return engineering.engineering()
+    elif reqContext.get("result").get("action") == "humanities":
+       return humanities.humanities()
+    elif reqContext.get("result").get("action") == "life_sciences":
+       return life_sciences.life_sciences()
+    elif reqContext.get("result").get("action") == "science_courses":
+       return science_courses.science_courses()
+    elif reqContext.get("result").get("action") == "chemistry":
+       return chemistry.chemistry()
+    elif reqContext.get("result").get("action") == "electronics":
+       return electronics.electronics()
+    elif reqContext.get("result").get("action") == "environmental_studies":
+       return environmental_studies.environmental_studies()
+    elif reqContext.get("result").get("action") == "mathematics":
+       return mathematics.mathematics()
+    elif reqContext.get("result").get("action") == "medicine":
+       return medicine.medicine()
+    elif reqContext.get("result").get("action") == "physics":
+       return physics.physics()
+    elif reqContext.get("result").get("action") == "social_science":
+       return social_science.social_science()
+    elif reqContext.get("result").get("action") == "energy_and_earth_science":
+       return energy_and_earth_science.energy_and_earth_science()
+    elif reqContext.get("result").get("action") == "art_courses":
+       return art_courses.art_courses()
+    elif reqContext.get("result").get("action") == "architecture":
+       return architecture.architecture()
+    elif reqContext.get("result").get("action") == "art_and_culture":
+       return art_and_culture.art_and_culture()
+    elif reqContext.get("result").get("action") == "communication":
+       return communication.communication()
+    elif reqContext.get("result").get("action") == "design":
+       return design.design()
+    elif reqContext.get("result").get("action") == "food_and_nutrition":
+       return food_and_nutrition.food_and_nutrition()
+    elif reqContext.get("result").get("action") == "health_and_safety":
+       return health_and_safety.health_and_safety()
+    elif reqContext.get("result").get("action") == "history":
+       return history.history()
+    elif reqContext.get("result").get("action") == "music":
+       return music.music()
+    elif reqContext.get("result").get("action") == "law":
+       return law.law()
     else:
        print("Good Bye")
 

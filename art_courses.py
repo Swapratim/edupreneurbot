@@ -18,8 +18,8 @@ from flask import make_response
 #   POPULAR COURSE CATEGORY - SHOWS FOUR MAJOR CATEGORIES EACH WITH 10 ITEMS         #
 #                                                                                    #
 #************************************************************************************#
-def science_courses():
-    print ("I'm in the science_courses  method")
+def art_courses():
+    print ("I'm in the art_courses  method")
     res = {
         "speech": "Taking up popular courses is a quick way to accelerate your career",
         "displayText": "Taking up popular courses is a quick way to accelerate your career",
@@ -38,109 +38,122 @@ def science_courses():
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Chemistry",
+                                   "title" : "Architecture",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "postback",
                                         "title": "Explore Courses",
-                                        "payload": "Chemistry"
+                                        "payload": "Architecture"
                                     },
                                     {
                                         "type": "element_share"
                                     }]
                                  }, 
                                  {
-                                   "title" : "Electronics",
+                                   "title" : "Art & Culture",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "postback",
                                         "title": "Explore Courses",
-                                        "payload": "Electronics"
+                                        "payload": "Art & Culture"
                                     },
                                     {
                                         "type": "element_share"
                                     }]
                                  },
                                  {
-                                   "title" : "Environmental Studies",
+                                   "title" : "Communication",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "postback",
                                         "title": "Explore Courses",
-                                        "payload": "Environmental Studies"
+                                        "payload": "Communication"
                                     },
                                     {
                                         "type": "element_share"
                                     }]
                                  },
                                  {
-                                   "title" : "Mathematics",
+                                   "title" : "Design",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "postback",
                                         "title": "Explore Courses",
-                                        "payload": "Mathematics"
+                                        "payload": "Design"
                                     },
                                     {
                                         "type": "element_share"
                                     }]
                                  },
                                  {
-                                   "title" : "Medicine",
+                                   "title" : "Food & Nutrition",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "postback",
                                         "title": "Explore Courses",
-                                        "payload": "Medicine"
+                                        "payload": "Food & Nutrition"
                                     },
                                     {
                                         "type": "element_share"
                                     }]
                                  },
                                  {
-                                   "title" : "Physics",
+                                   "title" : "Health & Safety",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "postback",
                                         "title": "Explore Courses",
-                                        "payload": "Physics"
+                                        "payload": "Health & Safety"
                                     },
                                     {
                                         "type": "element_share"
                                     }]
                                  },
                                  {
-                                   "title" : "Social Science",
+                                   "title" : "History",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "postback",
                                         "title": "Explore Courses",
-                                        "payload": "Social Science"
+                                        "payload": "History"
                                     },
                                     {
                                         "type": "element_share"
                                     }]
                                  },
                                  {
-                                   "title" : "Energy & Earth Science",
+                                   "title" : "Music",
                                    "image_url" : "",
                                    "subtitle" : "",
                                    "buttons": [{
                                         "type": "postback",
                                         "title": "Explore Courses",
-                                        "payload": "Energy & Earth Science"
+                                        "payload": "Music"
                                     },
                                     {
                                         "type": "element_share"
                                     }]
-                                 } 
+                                 },
+                                 {
+                                   "title" : "Law",
+                                   "image_url" : "",
+                                   "subtitle" : "",
+                                   "buttons": [{
+                                        "type": "postback",
+                                        "title": "Explore Courses",
+                                        "payload": "Law"
+                                    },
+                                    {
+                                        "type": "element_share"
+                                    }]
+                                 }
                            ]
                        } 
                    }

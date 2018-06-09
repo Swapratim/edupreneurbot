@@ -78,7 +78,7 @@ def professionalcourses():
                                  },
                                  {
                                    "title" : "Advanced Skillset Courses",
-                                   "image_url" : "https://6lli539m39y3hpkelqsm3c2fg-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/shutterstock_life_science-405x228.jpgg",
+                                   "image_url" : "https://6lli539m39y3hpkelqsm3c2fg-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/shutterstock_life_science-405x228.jpg",
                                    "subtitle" : "Earn professional degrees from top universities",
                                    "buttons": [{
                                         "type": "postback",
