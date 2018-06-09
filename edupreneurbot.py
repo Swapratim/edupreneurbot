@@ -21,7 +21,7 @@ from flask import make_response
 import professional_courses
 import popular_course
 sys.path.insert(0, "/popularCourses")
-import computer_science
+import popularCourses.computer_science
 
 
 # Flask should start in global layout
