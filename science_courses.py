@@ -15,18 +15,18 @@ from flask import make_response
 
 #************************************************************************************#
 #                                                                                    #
-#   POPULAR COURSE CATEGORY - SHOWS FOUR MAJOR CATEGORIES EACH WITH 10 ITEMS         #
+#   SCIENCE COURSE CATEGORY - SHOWS FOUR MAJOR CATEGORIES EACH WITH 10 ITEMS         #
 #                                                                                    #
 #************************************************************************************#
 def science_courses():
     print ("I'm in the science_courses  method")
     res = {
-        "speech": "Taking up popular courses is a quick way to accelerate your career",
-        "displayText": "Taking up popular courses is a quick way to accelerate your career",
+        "speech": "Taking up science courses is a quick way to accelerate your career",
+        "displayText": "Taking up science courses is a quick way to accelerate your career",
         "data" : {
         "facebook" : [
                {
-                "text": "Taking up popular courses is a quick way to accelerate your career."
+                "text": "Taking up science courses is a quick way to accelerate your career."
                },
                {
                     "sender_action": "typing_on"

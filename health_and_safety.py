@@ -21,12 +21,12 @@ from flask import make_response
 def health_and_safety():
     print ("I'm in the health_and_safety method")
     res = {
-        "speech": "Taking up popular courses is a quick way to accelerate your career",
-        "displayText": "Taking up popular courses is a quick way to accelerate your career",
+        "speech": "Healthy habits & safety measures can boost your life. Learn the secrets behind them",
+        "displayText": "Healthy habits & safety measures can boost your life. Learn the secrets behind them",
         "data" : {
         "facebook" : [
                {
-                "text": "Taking up popular courses is a quick way to accelerate your career."
+                "text": "Healthy habits & safety measures can boost your life. Learn the secrets behind them"
                },
                {
                     "sender_action": "typing_on"
@@ -39,8 +39,8 @@ def health_and_safety():
                        "elements" : [ 
                                  {
                                    "title" : "Injury Prevention for Children & Teens",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/59b08778-66cc-4902-8b9c-3844fb04e01f-89045b78cf64.small.jpg",
+                                   "subtitle" : "Learn how to avoid injury- #1 cause of death among children and teens",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/a771b080",
@@ -52,8 +52,8 @@ def health_and_safety():
                                  }, 
                                  {
                                    "title" : "Health Coaching for Patient Care",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/4b6dff6a-1c49-4763-a711-4cf48e0ef418-d53d19821271.small.jpg",
+                                   "subtitle" : "Learn essential coaching techniques to assist patients with lifestyle modifications",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/8d7a0eb3",
@@ -65,8 +65,8 @@ def health_and_safety():
                                  },
                                  {
                                    "title" : "Social Welfare Policy and Service",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/ssw_micromaster_530_socialwelfarepolicy_378x225.jpg",
+                                   "subtitle" : "Learn about the history of social welfare policy, services & work profession",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/a656cc30",
@@ -78,8 +78,8 @@ def health_and_safety():
                                  },
                                  {
                                    "title" : "Forensic Engineering: Learning from Failures",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/forensic-engineering_378x225.jpg",
+                                   "subtitle" : "Learn how failures can lead to social betterment",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/5d765b61",
@@ -91,8 +91,8 @@ def health_and_safety():
                                  },
                                  {
                                    "title" : "Entrepreneurship in Emerging Economies",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/387c5b5b-ef7f-43b9-b9b5-4163f3c74a49-ff159d73a091.small.jpg",
+                                   "subtitle" : "Explore how entrepreneurship and innovation tackle complex social problems",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/870fc1db",
@@ -104,8 +104,8 @@ def health_and_safety():
                                  },
                                  {
                                    "title" : "Nutrition and Health: Food Risks",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.wur.nl/upload_mm/7/6/0/ccf6214a-278c-4fbb-ace7-a8f41570cd4b_54145643-4d1f-4c49-aa86-4acaf9af5caa_nutr103x_587px_9687d60f_490x330.jpg",
+                                   "subtitle" : "Learn about bacteria, pesticides and health hazards present in food",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/6c8a39a7",
@@ -117,8 +117,8 @@ def health_and_safety():
                                  },
                                  {
                                    "title" : "Social Work: Research",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/ssw_micromaster_522_socialworkresearch_378x225.jpg",
+                                   "subtitle" : "Learn about the importance of an evidence-based approach in social work",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/a4e566fc",
@@ -130,8 +130,8 @@ def health_and_safety():
                                  },
                                  {
                                    "title" : "The Science and Practice of Yoga",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/yoga_378x225.jpg",
+                                   "subtitle" : "Learn to practice yoga & bring mindfulness into your everyday life",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/a32d00c9",
@@ -143,8 +143,8 @@ def health_and_safety():
                                  },
                                  {
                                    "title" : "Positive Behavior Support for Young Children",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/featured-card/positive-behavior-for-children-380x168.jpg",
+                                   "subtitle" : "Learn to promote social-emotional development for young children",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/21376368",
@@ -156,8 +156,8 @@ def health_and_safety():
                                  },
                                  {
                                    "title" : "eHealth – Opportunities and Challenges",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/ehealth-opportunities-and-challenges_378x225.jpg",
+                                   "subtitle" : "An introduction to the eHealth field featuring practical examples",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/c87cb06b",

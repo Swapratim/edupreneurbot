@@ -21,12 +21,12 @@ from flask import make_response
 def humanities():
     print ("I'm in the humanities  method")
     res = {
-        "speech": "Taking up popular courses is a quick way to accelerate your career",
-        "displayText": "Taking up popular courses is a quick way to accelerate your career",
+        "speech": "If you are an empathetic person and want to build your career upon that this is the right place",
+        "displayText": "If you are an empathetic person and want to build your career upon that this is the right place",
         "data" : {
         "facebook" : [
                {
-                "text": "Taking up popular courses is a quick way to accelerate your career."
+                "text": "If you are an empathetic person and want to build your career upon that this is the right place"
                },
                {
                     "sender_action": "typing_on"
@@ -39,8 +39,8 @@ def humanities():
                        "elements" : [ 
                                  {
                                    "title" : "Introduction to Bioethics",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/11593f6c-042c-42a1-b2aa-c337ceb6f74e-c01f93e11647.small.jpg",
+                                   "subtitle" : "Bioethics explores some of the most difficult & fascinating moral challenges",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/ca50a2b",
@@ -52,8 +52,8 @@ def humanities():
                                  }, 
                                  {
                                    "title" : "Human Rights Defenders",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/c981f823-ae43-4432-8ab7-b919fd318cfd-65990e6653a5.small.jpg",
+                                   "subtitle" : "Learn how Amnesty International stands up against injustice",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/fd5e92b7",
@@ -65,8 +65,8 @@ def humanities():
                                  },
                                  {
                                    "title" : "Global Media, War and Technology",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/11748849-1cf7-44fb-9d08-6ca7bf8f6c72-3b03d98a2046.small.jpg",
+                                   "subtitle" : "Explore the intersection of IT, violent conflict, and resistance",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/9dc70dd8",
@@ -78,8 +78,8 @@ def humanities():
                                  },
                                  {
                                    "title" : "Leaders in Global Development",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/0c6102e9-b2d7-420d-8f42-a74f9868b70f-92af6e7dff60.small.jpg",
+                                   "subtitle" : "Learn key leadership skills, concepts and theories",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/7672de16",
@@ -91,8 +91,8 @@ def humanities():
                                  },
                                  {
                                    "title" : "Unlocking Your Employability",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/employ101x-course_card_image11192015-378x225.jpg",
+                                   "subtitle" : "Learn how to market your skills to potential employers",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/4b029445",
@@ -103,9 +103,9 @@ def humanities():
                                     }]
                                  },
                                  {
-                                   "title" : "Working in Teams: A Practical Guide",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Working in Teams",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/teams101x-banner.jpg",
+                                   "subtitle" : "Learn how to build effective teams",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/939ce348",
@@ -117,8 +117,8 @@ def humanities():
                                  },
                                  {
                                    "title" : "Writing for Social Media",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/course3_writing_for_social_media-378225_0.jpg",
+                                   "subtitle" : "Learn how to write for social media - Berkeley",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/97e6dcfa",
@@ -130,8 +130,8 @@ def humanities():
                                  },
                                  {
                                    "title" : "Effective Business Writing",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/course2_effective_business_writing_-_378225_0.jpg",
+                                   "subtitle" : "Learn effective business writing by Berkeley",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/54be9bdf",
@@ -143,8 +143,8 @@ def humanities():
                                  },
                                  {
                                    "title" : "Terrorism and Counterterrorism",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://d3q6qq2zt8nhwv.cloudfront.net/course/2e31de4294a74730953628a21bcc695a.jpg",
+                                   "subtitle" : "The danger of terrorism & how to counter it",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/562de61",
@@ -156,8 +156,8 @@ def humanities():
                                  },
                                  {
                                    "title" : "Trends in e-Psychology",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/trends_in_e-psychology-378x225.jpg",
+                                   "subtitle" : "E-based promotion of physical, mental and social health",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/3febacd1",

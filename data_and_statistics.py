@@ -21,12 +21,12 @@ from flask import make_response
 def data_and_statistics():
     print ("I'm in the data_and_statistics  method")
     res = {
-        "speech": "Taking up popular courses is a quick way to accelerate your career",
-        "displayText": "Taking up popular courses is a quick way to accelerate your career",
+        "speech": "Data scientists are one the highest paid people in the world. Why not you?",
+        "displayText": "Data scientists are one the highest paid people in the world. Why not you?",
         "data" : {
         "facebook" : [
                {
-                "text": "Taking up popular courses is a quick way to accelerate your career."
+                "text": "Data scientists are one the highest paid people in the world. Why not you?"
                },
                {
                     "sender_action": "typing_on"
@@ -38,9 +38,9 @@ def data_and_statistics():
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Essential Mathematics for Artificial Intelligence",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Math for Machine Learning",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/fcaea676-0280-4af8-a913-7192af58c643-a4aa14027c75.small.png",
+                                   "subtitle" : "Learn essential math for Machine Learning & AI",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/7fbf3fe4",
@@ -51,9 +51,9 @@ def data_and_statistics():
                                     }]
                                  }, 
                                  {
-                                   "title" : "Multi-Object Tracking for Automotive Systems",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Multi-Object Tracking - Automobiles",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/1ddf76b7-93e0-4c7f-9ff6-75e99897159d-3a6cf5889b90.small.jpg",
+                                   "subtitle" : "Learn how to localize and track autonomous vehicles",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/1ea1f5ae",
@@ -64,9 +64,9 @@ def data_and_statistics():
                                     }]
                                  },
                                  {
-                                   "title" : "Data Science: Inference and Modelling",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Data Science",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/c654bfe1-69ba-4a2b-8be1-9acb2e846855-2111845aec83.small.jpg",
+                                   "subtitle" : "Harvard University offers best class Data Science course",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/e16ad055",
@@ -78,8 +78,8 @@ def data_and_statistics():
                                  },
                                  {
                                    "title" : "Big Data Analytics Using Spark",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/bannerrevised_4_378x225.jpg",
+                                   "subtitle" : "Learn how to analyze large datasets using Spark",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/9dd0eec6",
@@ -91,8 +91,8 @@ def data_and_statistics():
                                  },
                                  {
                                    "title" : "Mobile Application Experiences",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/building-mobile-experiences-378x225_0.jpg",
+                                   "subtitle" : "MIT presents a complete life-cycle of Mobile Apps",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/6f620491",
@@ -104,8 +104,8 @@ def data_and_statistics():
                                  },
                                  {
                                    "title" : "IoT Programming and Big Data",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/f4ce8928-2ca9-47f0-bc53-804769ffe095-3eaeb6ffaaf4.small.jpg",
+                                   "subtitle" : "How you need Big Data to your IoT designs",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/4ad28045",
@@ -117,8 +117,8 @@ def data_and_statistics():
                                  },
                                  {
                                    "title" : "Social Network Analysis",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/sna_378x225.jpg",
+                                   "subtitle" : "Learn how to conduct a social network analysis",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/c13b73af",
@@ -130,8 +130,8 @@ def data_and_statistics():
                                  },
                                  {
                                    "title" : "Predictive Analysis",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/featured-card/qm901x-about_page_image-318x210a.jpg",
+                                   "subtitle" : "Master the tools of predictive analytics - IIMB",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/a3038773",
@@ -143,8 +143,8 @@ def data_and_statistics():
                                  },
                                  {
                                    "title" : "Case Studies in Functional Genomics",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/statistics-and-r-for-the-life-sciences_378x225.jpg",
+                                   "subtitle" : "Explore data analysis of genomic info - Harvard",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/2efa399a",
@@ -156,8 +156,8 @@ def data_and_statistics():
                                  },
                                  {
                                    "title" : "Statistics and R",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/statistics-and-r-for-the-life-sciences_378x225.jpg",
+                                   "subtitle" : "statistical concepts & R to analyze Life Science data - Harvard",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/3766444a",

@@ -21,12 +21,12 @@ from flask import make_response
 def history():
     print ("I'm in the history method")
     res = {
-        "speech": "Taking up popular courses is a quick way to accelerate your career",
-        "displayText": "Taking up popular courses is a quick way to accelerate your career",
+        "speech": "History helps us understand change and how the society we live in came to be",
+        "displayText": "History helps us understand change and how the society we live in came to be",
         "data" : {
         "facebook" : [
                {
-                "text": "Taking up popular courses is a quick way to accelerate your career."
+                "text": "History helps us understand change and how the society we live in came to be"
                },
                {
                     "sender_action": "typing_on"
@@ -39,8 +39,8 @@ def history():
                        "elements" : [ 
                                  {
                                    "title" : "Religion, Conflict and Peace",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/47faf271-5dce-455e-8308-9bb903f1d697-c80435496084.small.jpg",
+                                   "subtitle" : "Explore the diverse and complex roles the religions play",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/d222b1eb",
@@ -52,8 +52,8 @@ def history():
                                  }, 
                                  {
                                    "title" : "Discover Political Science",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/8203b2ca-f5db-4a16-ae2b-02ca1df8aa2a-61d2a64bd2e2.small.jpg",
+                                   "subtitle" : "Understand current political stakes",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/8ec807ad",
@@ -65,8 +65,8 @@ def history():
                                  },
                                  {
                                    "title" : "Ancient Egyptian Civilization",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/bax1_image_378x225.png",
+                                   "subtitle" : "Learn about the history, women, and architecture of ancient Egypt",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/5f62eabf",
@@ -78,8 +78,8 @@ def history():
                                  },
                                  {
                                    "title" : "Democracy and Development",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/17.571x_378x225.jpg",
+                                   "subtitle" : "Learn about the drivers of democratic development in Africa",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/c808d32a",
@@ -91,8 +91,8 @@ def history():
                                  },
                                  {
                                    "title" : "Antarctica: From Geology to Human History",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/ice101x_course_listing_thumbnail.jpg",
+                                   "subtitle" : "Take a virtual field trip to Antarctica",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/d2ba607",
@@ -104,8 +104,8 @@ def history():
                                  },
                                  {
                                    "title" : "The Einstein Revolution",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/emc2x_thumbnail_378x225.jpg",
+                                   "subtitle" : "Learn about Albert Einstein’s lifelong interests",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/3e96ecff",
@@ -117,8 +117,8 @@ def history():
                                  },
                                  {
                                    "title" : "Western Civilization: Ancient and Medieval Europe",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/hst102_banner_0.jpg",
+                                   "subtitle" : "Learn about the origins and development of Western societies",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/f1c672bc",
@@ -130,8 +130,8 @@ def history():
                                  },
                                  {
                                    "title" : "The Science of Religion",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "http://aboutislam.net/wp-content/uploads/2017/03/Similarities-Between-Scientific-and-Religious-Extremism.jpg",
+                                   "subtitle" : "Explore the journey to the origins of religion and spirituality",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/6682aabd",
@@ -143,8 +143,8 @@ def history():
                                  },
                                  {
                                    "title" : "Saving Schools: Reforming the U.S. Education System",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/education-course-378x225_0.png",
+                                   "subtitle" : "An overview of past, present, and future of US education system",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/39ef89e7",
@@ -156,8 +156,8 @@ def history():
                                  },
                                  {
                                    "title" : "The Conquest of Space",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/af05174d-613f-4a54-9c6e-8298a26417e3-6100db4c3b78.small.jpg",
+                                   "subtitle" : "Explore the history of space travel",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/b9803414",

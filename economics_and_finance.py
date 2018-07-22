@@ -21,12 +21,12 @@ from flask import make_response
 def economics_and_finance():
     print ("I'm in the economics_and_finance  method")
     res = {
-        "speech": "Taking up popular courses is a quick way to accelerate your career",
-        "displayText": "Taking up popular courses is a quick way to accelerate your career",
+        "speech": "Transform your career by learning economics & finance edX courses",
+        "displayText": "Transform your career by learning economics & finance edX courses",
         "data" : {
         "facebook" : [
                {
-                "text": "Taking up popular courses is a quick way to accelerate your career."
+                "text": "Transform your career by learning economics & finance edX courses"
                },
                {
                     "sender_action": "typing_on"
@@ -39,8 +39,8 @@ def economics_and_finance():
                        "elements" : [ 
                                  {
                                    "title" : "Entrepreneurship in Emerging Economics",
-                                   "image_url" : "",
-                                   "subtitle" : "The Insider's Guide",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/387c5b5b-ef7f-43b9-b9b5-4163f3c74a49-aa50d2a80cbb.small.jpg",
+                                   "subtitle" : "Masterpiece course by Harvard to tackle social problems",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/870fc1db",
@@ -52,8 +52,8 @@ def economics_and_finance():
                                  }, 
                                  {
                                    "title" : "Introduction to foreign Exchange(FX)",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/4f061507-8a82-407e-a83f-c72ae102b768-183ac67743e1.small.jpg",
+                                   "subtitle" : "Introductory trading conventions of foreign exchange markets",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/13ab7176",
@@ -65,8 +65,8 @@ def economics_and_finance():
                                  },
                                  {
                                    "title" : "Introduction to Brokerage Operations",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/bopc.pc1_.1x.jpg",
+                                   "subtitle" : "Learn about brokerage operations",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/7d91f799",
@@ -77,9 +77,9 @@ def economics_and_finance():
                                     }]
                                  },
                                  {
-                                   "title" : "Introductory AP Microeconomics",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "AP Microeconomics",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/a086516d-a287-4d49-8af7-b8b1ecb5dd33-61417e36506c.small.jpg",
+                                   "subtitle" : "MIT presents introductory microeconomics",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/313ec547",
@@ -91,8 +91,8 @@ def economics_and_finance():
                                  },
                                  {
                                    "title" : "AP Macroeconomics",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/ap_macro_378x225.jpg",
+                                   "subtitle" : "Introduction to macroeconomics",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/87731878",
@@ -104,8 +104,8 @@ def economics_and_finance():
                                  },
                                  {
                                    "title" : "Introduction to FinTech",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/15923a19-7f31-4767-a7a0-73da8886f7b8-897ace251e72.small.jpg",
+                                   "subtitle" : "Learn about innovations transforming finance",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/b0f59157",
@@ -117,8 +117,8 @@ def economics_and_finance():
                                  },
                                  {
                                    "title" : "Cybersecurity Fundamentals",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/cyber501x_image_378x225.jpg",
+                                   "subtitle" : "Learn cybersecurity fundamentals",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/74975cbf",
@@ -130,8 +130,8 @@ def economics_and_finance():
                                  },
                                  {
                                    "title" : "Mortgage Backed Securities",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/mbs1.pc1x_378x225.jpg",
+                                   "subtitle" : "Learn about mortgage-backed securities",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/52b459b3",
@@ -142,9 +142,9 @@ def economics_and_finance():
                                     }]
                                  },
                                  {
-                                   "title" : "Risk Management Professional Certificate",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Risk Management Prof. Cert.",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/rmpc.pc6x_378x225.jpg",
+                                   "subtitle" : "Learn Risk Management, critical for your career growth",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/1654c2e",
@@ -155,9 +155,9 @@ def economics_and_finance():
                                     }]
                                  },
                                  {
-                                   "title" : "Healthcare in India: Strategic Perspectives",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Healthcare in India",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/c0d711dc-8926-4814-a8e2-f4a35aed9333-ce8d8af80cde.small.png",
+                                   "subtitle" : "Learn about contradictions & challenges that define Indian healthcare",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/293711ca",

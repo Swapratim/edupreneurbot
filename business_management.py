@@ -39,8 +39,8 @@ def business_management():
                        "elements" : [ 
                                  {
                                    "title" : "Becoming an Entrepreneur",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/launch.x-64f89aa9bf42-378225.jpg",
+                                   "subtitle" : "Learn the business skills and startup mindset from MIT",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/e8282a10",
@@ -51,9 +51,9 @@ def business_management():
                                     }]
                                  }, 
                                  {
-                                   "title" : "Critical Thinking and Problem Solving",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Critical Thinking & Problem Solving",
+                                   "image_url" : "https://campustechnology.com/~/media/EDU/CampusTechnology/Images/2017/09/20170914softskills.jpg",
+                                   "subtitle" : "Be the most successful professional",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/3a40aa3a",
@@ -64,9 +64,9 @@ def business_management():
                                     }]
                                  },
                                  {
-                                   "title" : "Reputation Management in a Digital World",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Reputation Management in Digital World",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/mkt2_378x225.jpg",
+                                   "subtitle" : "How to build organizations' reputation via social media",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/686afdc8",
@@ -78,8 +78,8 @@ def business_management():
                                  },
                                  {
                                    "title" : "Project Management for Development",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/17e30556-8e90-4005-b59b-0de1a07a1ab4-808ba0342a90.small.png",
+                                   "subtitle" : "Learn best practices to manage government projects",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/6a10ccc0",
@@ -90,9 +90,9 @@ def business_management():
                                     }]
                                  },
                                  {
-                                   "title" : "Resume, Networking and Interview Skills",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Networking & Interview Skills",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/52cbad0b-c721-4e3d-babd-e63201fd6a57-691ddc941576.small.jpg",
+                                   "subtitle" : "Get the job you want with compelling skillsets",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/8e634870",
@@ -103,9 +103,9 @@ def business_management():
                                     }]
                                  },
                                  {
-                                   "title" : "Business and Data Analysis Skills",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Business & Data Analysis Skills",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/ff6654bb-100f-4c22-8d79-4314ddb4f8fe-5417c04b68dc.small.jpg",
+                                   "subtitle" : "Learn key business management skills to grow faster",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/ecfb591a",
@@ -117,8 +117,8 @@ def business_management():
                                  },
                                  {
                                    "title" : "Strategic Management",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/st101x_bannerimage_resize.jpg",
+                                   "subtitle" : "Learn how a manager or CEO develops a business strategy - IIMB",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/8433b992",
@@ -130,11 +130,11 @@ def business_management():
                                  },
                                  {
                                    "title" : "Blockchain for Business",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/95c27f23-9062-4959-9673-de788e07873d-735dd82878e5.small.png",
+                                   "subtitle" : "An Introduction to Hyperledger Technologies",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "http://tidd.ly/ea0d3024",
+                                        "url": "http://tidd.ly/901b43bb",
                                         "title": "Enroll for Free"
                                     },
                                     {
@@ -143,8 +143,8 @@ def business_management():
                                  },
                                  {
                                    "title" : "Financial Analysis for Decision Making",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/courseimages_0002_finance_378x225.jpg",
+                                   "subtitle" : "Learn how to analyze business opportunities for their financial viability",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/f262d14e",
@@ -155,12 +155,12 @@ def business_management():
                                     }]
                                  },
                                  {
-                                   "title" : "Organizational Behavior",
-                                   "image_url" : "",
-                                   "subtitle" : "The Insider's Guide",
+                                   "title" : "Project Management Success",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/best_practice_378x225.jpg",
+                                   "subtitle" : "Learn how to create an organizational environment ",
                                    "buttons": [{
                                         "type": "web_url",
-                                        "url": "",
+                                        "url": "http://tidd.ly/e946742",
                                         "title": "Enroll for Free"
                                     },
                                     {

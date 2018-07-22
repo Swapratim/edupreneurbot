@@ -21,12 +21,12 @@ from flask import make_response
 def design():
     print ("I'm in the design  method")
     res = {
-        "speech": "Taking up popular courses is a quick way to accelerate your career",
-        "displayText": "Taking up popular courses is a quick way to accelerate your career",
+        "speech": "Design is a great way to make a living. It can be fulfilling, helpful and satisfying.",
+        "displayText": "Design is a great way to make a living. It can be fulfilling, helpful and satisfying.",
         "data" : {
         "facebook" : [
                {
-                "text": "Taking up popular courses is a quick way to accelerate your career."
+                "text": "Design is a great way to make a living. It can be fulfilling, helpful and satisfying."
                },
                {
                     "sender_action": "typing_on"
@@ -38,9 +38,9 @@ def design():
                       "template_type" : "generic",
                        "elements" : [ 
                                  {
-                                   "title" : "Circular Economy: An Introduction",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Circular Economy",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/02d007b2-609c-4526-af7e-f9962458aaa8-7c39aba55dc5.small.png",
+                                   "subtitle" : "Contribute to a sustainable economic system by design approaches",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/45003c31",
@@ -52,8 +52,8 @@ def design():
                                  }, 
                                  {
                                    "title" : "Design Practice in Business",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/ide_dpb001x_edx_378x225.jpg",
+                                   "subtitle" : "Essentials of design practice for developing new business opportunities & innovation",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/e068cc84",
@@ -65,8 +65,8 @@ def design():
                                  },
                                  {
                                    "title" : "Design Thinking Fundamentals",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/think501x_image-378225.jpg",
+                                   "subtitle" : "Learn how user-centered approach & design-thinking principles inspire innovative ideas",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/b1943fcc",
@@ -78,8 +78,8 @@ def design():
                                  },
                                  {
                                    "title" : "Make Your Own App",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "http://blog.edx.org/wp-content/uploads/2016/03/Mobile-Apps.jpg",
+                                   "subtitle" : "Learn to build your own mobile apps & softwares",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/ea36a369",
@@ -91,8 +91,8 @@ def design():
                                  },
                                  {
                                    "title" : "Introduction to Game Design",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/checkers-378x225.jpg",
+                                   "subtitle" : "MIT offers a practical introduction to game design concepts",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/a232dc6e",
@@ -103,9 +103,9 @@ def design():
                                     }]
                                  },
                                  {
-                                   "title" : "Design and Development of Educational Technology",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Design Educational Technology",
+                                   "image_url" : "https://mitopencourseware.files.wordpress.com/2014/09/11-132x-blog.jpg",
+                                   "subtitle" : "MIT presents theories & technologies underlying development",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/b6d67f4b",
@@ -117,8 +117,8 @@ def design():
                                  },
                                  {
                                    "title" : "Basic 3D Modeling using Blender",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/skani101x_banner-378225.jpg",
+                                   "subtitle" : "IIT Bombay offers basic 3D modeling skills",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/d0ccb13d",
@@ -129,9 +129,9 @@ def design():
                                     }]
                                  },
                                  {
-                                   "title" : "UX Design: From Wireframe to Prototype",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "UX Design",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/b6045388-0f3e-4c4b-b87b-34197eb1349e-efa14c44e2f8.small.jpg",
+                                   "subtitle" : "Learn about the UX design process from wireframes to prototypes",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/22d15424",
@@ -142,9 +142,9 @@ def design():
                                     }]
                                  },
                                  {
-                                   "title" : "Accessible Gamification for Business",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Gamification for Business",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/bb7079e3-c0b5-4fd1-926a-06af590536e3-0afcb587e2fe.small.jpg",
+                                   "subtitle" : "Learn how accessibility plays into gamification fundamentals, creating efficiency in business ",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/af0b385",
@@ -155,9 +155,9 @@ def design():
                                     }]
                                  },
                                  {
-                                   "title" : "CyberSecurity and Privacy in the IoT",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "CyberSecurity in IoT",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/aea32c0b-0d17-4ead-8996-a880b32aa433-36f8a49ae011.small.jpg",
+                                   "subtitle" : "Learn about the security and privacy implications of the IoT",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/ed14acd5",
@@ -177,7 +177,7 @@ def design():
                  {
                   "content_type": "text",
                   "title": "Back",
-                  "payload": "BackToHome",
+                  "payload": "BackToHomeArtCourses",
                   "image_url": "https://maxcdn.icons8.com/Share/icon/Arrows/reply_all_arrow_filled1600.png"
                   }
                   ]

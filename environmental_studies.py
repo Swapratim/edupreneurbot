@@ -21,12 +21,12 @@ from flask import make_response
 def environmental_studies():
     print ("I'm in the environmental_studies  method")
     res = {
-        "speech": "Taking up popular courses is a quick way to accelerate your career",
-        "displayText": "Taking up popular courses is a quick way to accelerate your career",
+        "speech": "Know your environment and advance your career. Browse the best courses out there.",
+        "displayText": "Know your environment and advance your career. Browse the best courses out there.",
         "data" : {
         "facebook" : [
                {
-                "text": "Taking up popular courses is a quick way to accelerate your career."
+                "text": "Know your environment and advance your career. Browse the best courses out there."
                },
                {
                     "sender_action": "typing_on"
@@ -39,8 +39,8 @@ def environmental_studies():
                        "elements" : [ 
                                  {
                                    "title" : "The Climate Energy Challenge",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/9146946f-1859-481b-9552-3d1271146826-d6f69cd6b03d.small.jpg",
+                                   "subtitle" : "Learn more about the science behind climate change",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/632abc41",
@@ -52,8 +52,8 @@ def environmental_studies():
                                  }, 
                                  {
                                    "title" : "Introduction to Environmental Science",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/intro_to_environmental_science_378x225.jpg",
+                                   "subtitle" : "A scientific study of the natural world",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/8dfd1a8",
@@ -65,8 +65,8 @@ def environmental_studies():
                                  },
                                  {
                                    "title" : "Sustainable Energy Capstone",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/engycap-banner-378.jpg",
+                                   "subtitle" : "Learn via Sustainable Energy MicroMasters program",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/e1c050e4",
@@ -78,8 +78,8 @@ def environmental_studies():
                                  },
                                  {
                                    "title" : "Low Emission Technologies and Supply",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/engy3x-banner-378.jpg",
+                                   "subtitle" : "Analyse the role of current energy supply systems",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/22c451fa",
@@ -91,8 +91,8 @@ def environmental_studies():
                                  },
                                  {
                                    "title" : "Flood Risk Management",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/frmx-378x225.jpg",
+                                   "subtitle" : "Understand the fundamentals of flood risk management",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/cff9949a",
@@ -104,8 +104,8 @@ def environmental_studies():
                                  },
                                  {
                                    "title" : "Globalization and Sustainable Development",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/403142dc-dc49-41f9-a5e4-da355d2ede90-935038f40d06.small.png",
+                                   "subtitle" : "Learn the nexus between globalisation & sustainable development",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/c333f9d1",
@@ -117,8 +117,8 @@ def environmental_studies():
                                  },
                                  {
                                    "title" : "Co-Creating Sustainable Cities",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/course_image_v20170607-378225.jpg",
+                                   "subtitle" : "Learn how citizen’s co-creation can make world more sustainable",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/f789c4eb",
@@ -130,8 +130,8 @@ def environmental_studies():
                                  },
                                  {
                                    "title" : "Antarctica: From Geology to Human History",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/ice101x_course_listing_thumbnail.jpg",
+                                   "subtitle" : "Take a virtual field trip to Antarctica",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/d2ba607",
@@ -143,8 +143,8 @@ def environmental_studies():
                                  },
                                  {
                                    "title" : "Effects of Radiation",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/radio101x-378x225.jpg",
+                                   "subtitle" : "Learn more about effects of Radiation",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/955cd640",
@@ -156,8 +156,8 @@ def environmental_studies():
                                  },
                                  {
                                    "title" : "Natural Disasters",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/natural-disasters378x225.jpg",
+                                   "subtitle" : "Learn the science behind different types of natural disasters",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/c80efc22",

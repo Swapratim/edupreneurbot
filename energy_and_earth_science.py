@@ -21,12 +21,12 @@ from flask import make_response
 def energy_and_earth_science():
     print ("I'm in the energy_and_earth_science  method")
     res = {
-        "speech": "Taking up popular courses is a quick way to accelerate your career",
-        "displayText": "Taking up popular courses is a quick way to accelerate your career",
+        "speech": "Know how we can live a better future. You can contribute to the future of humankind.",
+        "displayText": "Know how we can live a better future. You can contribute to the future of humankind.",
         "data" : {
         "facebook" : [
                {
-                "text": "Taking up popular courses is a quick way to accelerate your career."
+                "text": "Know how we can live a better future. You can contribute to the future of humankind."
                },
                {
                     "sender_action": "typing_on"
@@ -39,8 +39,8 @@ def energy_and_earth_science():
                        "elements" : [ 
                                  {
                                    "title" : "Energy Within Environmental Constraints",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/3ee3be46-26a9-4594-bd90-1a91386c534a-987dcbc220f2.small.jpg",
+                                   "subtitle" : "Learn about energy system and its environmental impacts",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/ff6000f5",
@@ -52,8 +52,8 @@ def energy_and_earth_science():
                                  }, 
                                  {
                                    "title" : "Tropical Coastal Ecosystems",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/tropic101x_course_homepage_278x225.jpg",
+                                   "subtitle" : "Problems & solutions to manage tropical coastal ecosystems",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/8ab103e0",
@@ -65,8 +65,8 @@ def energy_and_earth_science():
                                  },
                                  {
                                    "title" : "Introduction to Deep Earth Science",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/geos101x-intro_to_deep_earth_science_p1-378x225_0.jpg",
+                                   "subtitle" : "Learn about nature of Earth’s core, mantle & crust",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/8f120510",
@@ -78,8 +78,8 @@ def energy_and_earth_science():
                                  },
                                  {
                                    "title" : "Climate Change: Carbon Capture and Storage",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/07721e0e-0ba7-45ad-b82b-1b6abdcb9dba-438a8910567b.small.jpg",
+                                   "subtitle" : "Explore the technology to protect our atmosphere from global warming",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/d82b808",
@@ -90,9 +90,9 @@ def energy_and_earth_science():
                                     }]
                                  },
                                  {
-                                   "title" : "Sustainable Energy: Design a Renewable Future",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Sustainable Energy",
+                                   "image_url" : "https://ocw.tudelft.nl/wp-content/uploads/ewi_energyx_edx_header.png",
+                                   "subtitle" : "Learn how to make the transition to 100% renewable energy",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/da2e0831",
@@ -104,8 +104,8 @@ def energy_and_earth_science():
                                  },
                                  {
                                    "title" : "Greatest Unsolved Mysteries of the Universe",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://i.ytimg.com/vi/rcYHbz1PHY0/maxresdefault.jpg",
+                                   "subtitle" : "Exploring the biggest mysteries of modern astrophysics",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/ce928826",
@@ -116,9 +116,9 @@ def energy_and_earth_science():
                                     }]
                                  },
                                  {
-                                   "title" : "Geoscience: The Earth and its Resources",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Geoscience",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/geo101x-course_card12112015-378x225.jpg",
+                                   "subtitle" : "Modern Earth Sciences with application to the Geology",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/7425bcf0",
@@ -130,8 +130,8 @@ def energy_and_earth_science():
                                  },
                                  {
                                    "title" : "Dinosaur Ecosystems",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/30138fc7-3d0b-4344-979a-895d2544c403-3af13e59d484.small.jpg",
+                                   "subtitle" : "How palaeontologists use fossils to reconstruct dinosaur",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/8b8c673c",
@@ -143,8 +143,8 @@ def energy_and_earth_science():
                                  },
                                  {
                                    "title" : "Sensing Planet Earth - From Core to Outer Space",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/chm003x-course_card_image11202015-378x225_0.jpg",
+                                   "subtitle" : "Learn about the crucial tools for measuring and monitoring our planet",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/dd60e5f4",
@@ -156,8 +156,8 @@ def energy_and_earth_science():
                                  },
                                  {
                                    "title" : "Solar Energy",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/solar-energy_378x225_0.jpg",
+                                   "subtitle" : "Discover the power of solar energy",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/253055f0",

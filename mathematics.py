@@ -21,12 +21,12 @@ from flask import make_response
 def mathematics():
     print ("I'm in the mathematics  method")
     res = {
-        "speech": "Taking up popular courses is a quick way to accelerate your career",
-        "displayText": "Taking up popular courses is a quick way to accelerate your career",
+        "speech": "Everyone needs some level of mathematics to progress better in any field",
+        "displayText": "Everyone needs some level of mathematics to progress better in any field",
         "data" : {
         "facebook" : [
                {
-                "text": "Taking up popular courses is a quick way to accelerate your career."
+                "text": "Everyone needs some level of mathematics to progress better in any field. You would lik the list for sure."
                },
                {
                     "sender_action": "typing_on"
@@ -39,8 +39,8 @@ def mathematics():
                        "elements" : [ 
                                  {
                                    "title" : "Introduction to Probability",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/0876df69-2866-4428-9fc3-a97d8d0cf81e-50ac34f93c9c.small.jpg",
+                                   "subtitle" : "Fundamental concepts of mathematical probability",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/8e8c954",
@@ -52,8 +52,8 @@ def mathematics():
                                  }, 
                                  {
                                    "title" : "Relativity & Astrophysics",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://i.ytimg.com/vi/io8JSc5q3VA/maxresdefault.jpg",
+                                   "subtitle" : "Explore astronomy and Einstein’s theory of relativity",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/60b1bdd3",
@@ -64,9 +64,9 @@ def mathematics():
                                     }]
                                  },
                                  {
-                                   "title" : "Essential Mathematics for Artificial Intelligence",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Essential Math for AI",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/fcaea676-0280-4af8-a913-7192af58c643-a4aa14027c75.small.png",
+                                   "subtitle" : "Learn Machine Learning and AI from Microsoft",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/7fbf3fe4",
@@ -78,8 +78,8 @@ def mathematics():
                                  },
                                  {
                                    "title" : "Linear Algebra - Foundations to Frontiers",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/16e7e19f-9036-4916-a1c8-2b799b502212-b6ccea6595b7.small.jpg",
+                                   "subtitle" : "Learn linear algebra and link it to matrix software development",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/3932b894",
@@ -91,8 +91,8 @@ def mathematics():
                                  },
                                  {
                                    "title" : "College Algebra and Problem Solving",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/mat117_banner.jpg",
+                                   "subtitle" : "Credit-eligible college level math course from ASU",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/2b140932",
@@ -104,8 +104,8 @@ def mathematics():
                                  },
                                  {
                                    "title" : "Graph Algorithms in Genome Sequencing",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://www.edx.org/sites/default/files/course/image/promoted/206x_378x225.jpg",
+                                   "subtitle" : "Learn graphs usage to assemble millions of pieces of DNA",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/bc97ec81",
@@ -117,8 +117,8 @@ def mathematics():
                                  },
                                  {
                                    "title" : "Mathematical Modelling Basics",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/d65b671f-d3ff-444f-aa3c-41ded325e111-43dd55e266c1.small.jpg",
+                                   "subtitle" : "Apply mathematics to solve real-life problems",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/729c86c6",
@@ -130,8 +130,8 @@ def mathematics():
                                  },
                                  {
                                    "title" : "Paradox and infinity",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/62467d39-05f3-4453-aee0-46cf5781c10d-a7ac373ab047.small.png",
+                                   "subtitle" : "This is a class about awe-inspiring issues from MIT",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/9a40229d",
@@ -142,9 +142,9 @@ def mathematics():
                                     }]
                                  },
                                  {
-                                   "title" : "Computational Neuroscience: Neuronal Dynamics of Cognition",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "title" : "Computational Neuroscience",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/d9db31e0-a833-427b-b2f3-77b5b926cf13-b1200e143d1a.small.jpg",
+                                   "subtitle" : "Explore theoretical neuroscience to analyze the collective dynamics",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/383c4092",
@@ -156,8 +156,8 @@ def mathematics():
                                  },
                                  {
                                    "title" : "Pre-University Calculus",
-                                   "image_url" : "",
-                                   "subtitle" : "",
+                                   "image_url" : "https://prod-discovery.edx-cdn.org/media/course/image/41e295ce-a84b-4952-a9a7-fa613201d896-fd70d93486b2.small.jpg",
+                                   "subtitle" : "Prepare for Introductory Calculus courses",
                                    "buttons": [{
                                         "type": "web_url",
                                         "url": "http://tidd.ly/57d30915",
