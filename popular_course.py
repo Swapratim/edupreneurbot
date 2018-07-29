@@ -150,8 +150,8 @@ def popularcourselist():
                   "quick_replies": [
                  {
                   "content_type": "text",
-                  "title": "Back",
-                  "payload": "BackToHome",
+                  "title": "Back to Home",
+                  "payload": "BacktoWelcomeContent",
                   "image_url": "https://maxcdn.icons8.com/Share/icon/Arrows/reply_all_arrow_filled1600.png"
                   }
                   ]
