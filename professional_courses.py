@@ -819,8 +819,8 @@ def advancedskillsetcourses():
                   "quick_replies": [
                  {
                   "content_type": "text",
-                  "title": "Back to Home",
-                  "payload": "BacktoWelcomeContent",
+                  "title": "Back",
+                  "payload": "BackToProfessionalCourses",
                   "image_url": "https://maxcdn.icons8.com/Share/icon/Arrows/reply_all_arrow_filled1600.png"
                   }
                   ]

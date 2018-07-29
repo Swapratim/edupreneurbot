@@ -140,6 +140,8 @@ def webhook():
        return law.law()
     elif reqContext.get("result").get("action") == "BacktoWelcomeContent":
        return showpopularcategories()
+    elif reqContext.get("result").get("action") == "BackToProfessionalCourses":
+       return professional_courses.professionalcourses()
     else:
        print("Good Bye")
 
