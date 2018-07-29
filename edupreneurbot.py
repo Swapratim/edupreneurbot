@@ -138,6 +138,8 @@ def webhook():
        return music.music()
     elif reqContext.get("result").get("action") == "law":
        return law.law()
+    elif reqContext.get("result").get("action") == "BacktoWelcomeContent":
+       return showpopularcategories()
     else:
        print("Good Bye")
 
@@ -248,10 +250,9 @@ def reply(user_id, msg):
 #************************************************************************************#
 
 def showpopularcategories():
-    otherplatformstatement = "Great! I'll ask two questions only. Then only I can precisely tell whether you need a VISA or NOT to travel your destination country."
     res = {
-        "speech": "Great! I'll ask two questions only",
-        "displayText": "Great! I'll ask two questions only",
+        "speech": "Wise choice " + first_name + ". Add certificates to your CV and shine at your workplace.",
+        "displayText": "Wise choice " + first_name + ". Add certificates to your CV and shine at your workplace.",
         "data" : {
         "facebook" : [
                {
